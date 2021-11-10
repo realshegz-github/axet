@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+*, body, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.box{
+    border: 1px solid rgba(0, 0, 0, 1);
+    background-color: rgba(119, 45, 139, 1);
+    height: 46px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 18px;  
+}
+.icon a{
+    margin-left: 13px;
+}
+.box-content{
+    font-size: 14px;
+}
+.box-content a {
+    margin-right: 18px;
+    text-decoration: none;
+    color: rgba(255, 196, 45, 1);   
+}
+.box-content a span {
+    color: white;
+    margin-right: 6px;
+}
+
+.nav-box{
+    height: 79px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.26);
+
+
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo p{
+    margin-left: 41px;
+}
+.logo span{
+    color:rgba(255, 196, 45, 1);
+;
+}
+.links{
+    margin-right: 16px;
+}
+.links a{
+margin-right: 20px;
+text-decoration: none;
+color: white;
+size: 15px;
+}
+.links button{
+width: 137px;
+height: 34px;
+background: rgba(238, 43, 122, 1);
+color: white;
+border-radius: 5px;
+border: none;
+transition: 0.5s;
+}
+.links button:hover{
+    background-color:rgba(231, 54, 125, 0.774);
+    color: whitesmoke;
+}
+
+#first_page{
+    background-image: url(/image/background.png);
+    height: 666px;
+    Width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.home-page{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 67px;
+    
+}
+.home-content{
+    font-size: 40px;
+    line-height: 62px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;  
+}
+.home-content span{
+    font-size: 65px;
+}
+.home-form{
+    height: 365px;
+    width: 340px;
+    border-radius: 5px;
+    background: rgba(55, 55, 55, 0.79);
+    font-size: 18px;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home-form input{
+    height: 45px;
+    width: 267px;
+    border-radius: 4px;
+    margin-bottom: 19px; 
+    padding-left: 19px;
+    border: none;
+    font-size: 14px;
+}
+#password-field{
+    margin-bottom: 10px;
+}
+#login-form-submit{
+    background-color: rgba(238, 43, 122, 1);
+    color: white;
+    border: none; 
+    margin-bottom: 18px;  
+    padding: 0px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#login-form-submit:hover{
+    background-color:rgba(231, 54, 125, 0.774);
+    color: whitesmoke;
+}
+.login-text{
+    margin-bottom: 24px;
+}
+.p-text{
+    font-size: 12px;
+    margin-bottom: 40px;
+    margin-left: 170px;
+}
+.signup-text{
+    font-size: 12px;
+    margin-left: 66px;
+}
+.signup-text span{
+    color: rgba(238, 43, 122, 1);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.signup-text span:hover{
+    color:rgba(231, 54, 125, 0.774);
+}
+
+
+
+
+
+
+
+/* .icon{
+    padding-left: 32px;
+}
+.icon a{
+    padding-right: 16px;
+}
+.box-content{
+    font-size: 14px;
+    padding-left: 61%;
+    font-family: open sans;
+    padding-right: 16px;
+}
+.box-content a{
+    
+     padding-right: 26px;
+     text-decoration: none;
+     color:rgba(255, 255, 255, 1);
+;   
+}
+.box-content a span{
+    color:rgba(255, 196, 45, 1); 
+
+}
+.nav-box{
+    border: 1px solid rgba(0, 0, 0, 1);
+    height: 70px;
+    width: 100vw;
+    display: flex;
+    padding-top: 8px;
+    background-color: rgba(0, 0, 0, 0.363);
+}
+.nav-box p{
+     padding-left: 100px;
+     font-size: 14px;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     color: white;
+}
+.nav-box p span{
+    color:rgba(255, 196, 45, 1);
+    font-size: 19px;
+    padding-left: 20px;
+}
+.nav-box ul{
+    display: flex;
+    font-size: 15px;
+    padding-left: 35%;
+}
+.nav-box ul li{
+    text-decoration: none;
+    list-style: none;
+    padding-right: 30px;
+}
+.nav-box ul li a{
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+.nav-box ul li button{
+    height: 34px;
+    width: 137px;
+    left: 1192px;
+    top: 20px;
+    border-radius: 5px;
+    background: rgba(238, 43, 122, 1);
+    color: white;
+}
+#first_page{
+   
+    height: 666px;
+    width: 1491px;
+    left: -67px;
+    top: 45px;
+    border-radius: 0px;
+    background-repeat: no-repeat;
+    
+
+}
+.first_page_content{
+    display: flex;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+.content{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: 62px;
+letter-spacing: 0em;
+text-align: left;
+color: white;
+}
+.login-box{
+    background-color: rgba(12, 12, 12, 0.493);
+    width: 20%;
+
+    padding-left: 20%;
+} */
