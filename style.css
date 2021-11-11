@@ -419,6 +419,42 @@ margin-top: 51px;
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 82px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.industry-text{
+font-size: 40px;
+font-weight: 600px;
+margin-bottom: 25px;
+}
+.sub-text{
+    font-size: 14px;
+    font-weight: 700px;
+    margin-top: 25px;
+}
+.elispe-grey-background{
+    background: rgba(255, 255, 255, 0.86);
+    width: 116px;
+    height: 116px;
+    border-radius: 50%;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.elispe-white-background{
+    background: white;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 #eight_page h6{
     text-align: center;
@@ -434,6 +470,7 @@ margin-top: 51px;
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 151px;
+    
 }
 #last_page{
     height: 366px;
@@ -443,10 +480,78 @@ margin-top: 51px;
 .last-content{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    font-size: 14px;
+    text-align: left;  
+    padding: 50px;
+}
+.about-text{
+    width: 273px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    text-align: left;
+}
+.about-text h3{
+    margin-bottom: 25px;
+}
+.info-text{
+font-size: 14px;
+font-weight: 300;
+line-height: 22px;
+text-align: left;
+}
+.info-text h3{
+    margin-bottom: 25px;
+}
+.contact-text{
+    width: 265px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
 }
-#last_page .text{
-    width: 270px;
+.contact-text h3{
+    margin-bottom: 25px;
+}
+.contact{
+      display: flex;
+}
+.contact img{
+    height: 20px;
+    width: 14px;
+    margin-right: 20px;
+}
+
+
+.info-text ul li {
+    list-style: none;
+}
+.info-text ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
     text-align: left;
+    line-height: 36px;
+}
+.news-text{
+    width: 273px;
+}
+.news-text h3{
+    margin-bottom: 25px;
+}
+
+footer{
+    
+    font-size: 14px;;
+    font-weight: 300;
+    line-height: 22px;
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
