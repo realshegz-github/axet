@@ -76,7 +76,6 @@ body {
 	color: white;
 	border-radius: 5px;
 	border: none;
-	transition: 0.5s;
 }
 .links button:hover {
 	background-color: rgba(231, 54, 125, 0.774);
@@ -84,7 +83,7 @@ body {
 }
 
 #first_page {
-	background-image: url(/image/background.png);
+	background-image: url(./image/background.png);
 	height: 666px;
 	width: 100%;
 	background-repeat: no-repeat;
@@ -247,7 +246,7 @@ body {
     text-align: center;
 }
 #fourth_page {
-	background-image: url(/image/section_men-bkg.png);
+	background-image: url(./image/section_men-bkg.png);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
